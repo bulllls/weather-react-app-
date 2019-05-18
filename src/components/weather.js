@@ -12,6 +12,7 @@ class Weather extends React.Component {
               <p>Заход: {this.props.sunset}</p>
             </div>
           }
+           <p>{this.props.error}  </p>
       </div>
 
     );
